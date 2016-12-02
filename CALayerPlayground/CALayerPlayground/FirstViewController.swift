@@ -88,10 +88,13 @@ class FirstViewController: UIViewController {
         }
     }
     @IBAction func borderSlide(_ sender: UISlider) {
+        l.borderWidth = CGFloat(sender.value)
     }
     @IBAction func shadowSlide(_ sender: UISlider) {
+        l.shadowOpacity = sender.value
     }
     @IBAction func cornerSlide(_ sender: UISlider) {
+        l.cornerRadius = CGFloat(sender.value)
     }
     
     

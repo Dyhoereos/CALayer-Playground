@@ -32,7 +32,7 @@
                                     <action selector="gravitySlide:" destination="9pv-A4-QxB" eventType="valueChanged" id="Kf5-xo-663"/>
                                 </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="15" translatesAutoresizingMaskIntoConstraints="NO" id="XpO-m9-sjz">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="0.0" maxValue="15" translatesAutoresizingMaskIntoConstraints="NO" id="XpO-m9-sjz">
                                 <connections>
                                     <action selector="borderSlide:" destination="9pv-A4-QxB" eventType="valueChanged" id="7fc-mZ-HXF"/>
                                 </connections>
