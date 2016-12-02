@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0CDBD251DF17126004FAC51 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDBD241DF17126004FAC51 /* ThirdViewController.swift */; };
+		A0CDBD271DF175D6004FAC51 /* EmitterControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDBD261DF175D6004FAC51 /* EmitterControls.swift */; };
 		A0D39F6A1DF139A300669604 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D39F691DF139A300669604 /* AppDelegate.swift */; };
 		A0D39F6C1DF139A300669604 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D39F6B1DF139A300669604 /* FirstViewController.swift */; };
 		A0D39F6E1DF139A300669604 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D39F6D1DF139A300669604 /* SecondViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0CDBD241DF17126004FAC51 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		A0CDBD261DF175D6004FAC51 /* EmitterControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmitterControls.swift; sourceTree = "<group>"; };
 		A0D39F661DF139A300669604 /* CALayerPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CALayerPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D39F691DF139A300669604 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0D39F6B1DF139A300669604 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +63,9 @@
 				A0D39F691DF139A300669604 /* AppDelegate.swift */,
 				A0D39F6B1DF139A300669604 /* FirstViewController.swift */,
 				A0D39F6D1DF139A300669604 /* SecondViewController.swift */,
+				A0CDBD241DF17126004FAC51 /* ThirdViewController.swift */,
 				A0D39F6F1DF139A300669604 /* Main.storyboard */,
+				A0CDBD261DF175D6004FAC51 /* EmitterControls.swift */,
 				A0D39F721DF139A300669604 /* Assets.xcassets */,
 				A0D39F741DF139A300669604 /* LaunchScreen.storyboard */,
 				A0D39F771DF139A300669604 /* Info.plist */,
@@ -141,6 +147,8 @@
 			files = (
 				A0D39F6E1DF139A300669604 /* SecondViewController.swift in Sources */,
 				A0D39F6A1DF139A300669604 /* AppDelegate.swift in Sources */,
+				A0CDBD251DF17126004FAC51 /* ThirdViewController.swift in Sources */,
+				A0CDBD271DF175D6004FAC51 /* EmitterControls.swift in Sources */,
 				A0D39F6C1DF139A300669604 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +311,7 @@
 				A0D39F7C1DF139A300669604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

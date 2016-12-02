@@ -117,7 +117,40 @@
                     </connections>
                 </pinchGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="703" y="-571"/>
+        </scene>
+        <!--Third-->
+        <scene sceneID="HJq-yj-Ibs">
+            <objects>
+                <viewController id="p46-Un-6f2" customClass="ThirdViewController" customModule="CALayerPlayground" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fEs-xD-koj"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rcw-cr-PPO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Tn0-SQ-tQM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8gc-Gf-hAM">
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Rcw-cr-PPO" firstAttribute="top" secondItem="8gc-Gf-hAM" secondAttribute="bottom" id="4LY-39-PwY"/>
+                            <constraint firstItem="8gc-Gf-hAM" firstAttribute="leading" secondItem="Tn0-SQ-tQM" secondAttribute="leading" id="Hk5-PE-cWh"/>
+                            <constraint firstItem="8gc-Gf-hAM" firstAttribute="top" secondItem="Tn0-SQ-tQM" secondAttribute="top" id="Jko-HF-oEG"/>
+                            <constraint firstAttribute="trailing" secondItem="8gc-Gf-hAM" secondAttribute="trailing" id="ezg-Ew-a1P"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Third" image="first" id="JLG-Sh-LNB"/>
+                    <connections>
+                        <outlet property="viewForEmitterLayer" destination="8gc-Gf-hAM" id="ZdR-dg-3z2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WBa-Un-Zkv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1669.5999999999999" y="35.532233883058474"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
@@ -185,14 +218,14 @@
                             <constraint firstItem="Ezc-C7-1vf" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="21" id="lyt-GK-n59"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Second" image="first" id="cPa-gy-q4n"/>
                     <connections>
                         <outlet property="viewForLayer" destination="Ezc-C7-1vf" id="4bR-th-fWe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="794" y="124"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -207,6 +240,7 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="p46-Un-6f2" kind="relationship" relationship="viewControllers" id="A6T-dh-MuU"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -216,6 +250,5 @@
     </scenes>
     <resources>
         <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
     </resources>
 </document>
